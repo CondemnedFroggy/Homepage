@@ -319,15 +319,21 @@ button:focus {
   top: 0;
 }
 .collapsible {
+  background:#fff;
   background-color: #777;
-  color: white;
+  color:#000;
   cursor: pointer;
-  padding: 18px;
+  padding:10px 40px;
   width: 100%;
-  border: none;
+  border:2px solid #fff;
+  border-radius:50px;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size:18px;   
+  font-family: 'Comfortaa', cursive;
+  font-weight:bold;
+  transition:0.4s ease-in-out;
+  margin:30px 10px;
 }
 .active, .collapsible:hover {
   background-color: #555;
