@@ -15,8 +15,7 @@
   margin:30px 10px;
 }
 .active, .collapsible:hover {
-  background-color:blue;
-  color:yellow;
+  background-color:white;
 }
 .content {
   padding:10px 40px;
@@ -24,7 +23,7 @@
   border-radius:50px;
   display: none;
   overflow: hidden;
-  background-color:green;
+  background-color:transparent;
 }
 .btn_one {
     color:white;
