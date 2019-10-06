@@ -19,7 +19,9 @@
   color:#000;
 }
 .content {
-  padding: 0 18px;
+  padding:10px 40px;
+  border:2px solid #fff;
+  border-radius:50px;
   display: none;
   overflow: hidden;
   background-color:transparent;
