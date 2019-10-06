@@ -16,6 +16,7 @@
 }
 .active, .collapsible:hover {
   background-color: white;
+  color: #000; 
 }
 .content {
   padding: 10px 40px;
@@ -38,9 +39,9 @@
     margin:30px 10px;
 }
 .btn_one:hover {
-    background:white;
-    cursor:pointer;
-    color:#000;
+    background: white;
+    cursor: pointer;
+    color: #000;
 }
 .project div {
     font-weight:normal;
