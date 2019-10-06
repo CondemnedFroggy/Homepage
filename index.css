@@ -11,19 +11,19 @@
   font-size:18px;   
   font-family: 'Comfortaa', cursive;
   font-weight:bold;
-  transition:0.4s ease-in-out;
-  margin:30px 10px;
+  transition: 0.3s ease-in-out;
+  margin: 30px 10px;
 }
 .active, .collapsible:hover {
-  color:white;
+  background-color: white;
 }
 .content {
-  padding:10px 40px;
-  border:2px solid #fff;
-  border-radius:50px;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  border-radius: 50px;
   display: none;
   overflow: hidden;
-  background:transparent;
+  background: transparent;
 }
 .btn_one {
     color:white;
