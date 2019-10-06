@@ -319,9 +319,8 @@ button:focus {
   top: 0;
 }
 .collapsible {
-  background:#fff;
-  background-color: #777;
-  color:#000;
+  background:transparent;
+  color:white;
   cursor: pointer;
   padding:10px 40px;
   width: 100%;
@@ -336,7 +335,8 @@ button:focus {
   margin:30px 10px;
 }
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color:white;
+  color:#000;
 }
 .content {
   padding: 0 18px;
