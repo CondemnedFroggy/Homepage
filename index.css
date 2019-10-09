@@ -43,6 +43,40 @@
     cursor: pointer;
     color: #000;
 }
+.btn_xb {
+    color:0e7a0d;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_xb:hover {
+    background: 0e7a0d;
+    cursor: pointer;
+    color: #000;
+}
+.btn_ps {
+    color:003087;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_ps:hover {
+    background: 003087;
+    cursor: pointer;
+    color: #000;
+}
 .project div {
     font-weight:normal;
 }
