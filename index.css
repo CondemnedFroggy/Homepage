@@ -44,14 +44,14 @@
     color: #000;
 }
 .btn_xb {
-    color:0e7a0d;
+    color:white;
     padding:10px 40px;
     border-radius:50px;
     border:2px solid #fff;
     font-size:18px;
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
-    background:0e7a0d;
+    background-color:0e7a0d;
     transition:0.4s ease-in-out;
     margin:30px 10px;
 }
