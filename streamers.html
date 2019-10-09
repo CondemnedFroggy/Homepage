@@ -71,8 +71,15 @@
                 <iframe src="https://www.twitch.tv/embed/cheese_cruiser/chat?darkpopout" frameborder="0" scrolling="no" height=200 width=30%></iframe>
             </div>
             <br><br><br><br>
+            <div id="twitch-embed"></div>
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: 854, 
+                    height: 480,
+                    channel: "monstercat"});
         </div>
-        
+                    
         <div class="project">
             <img style='vertical-align:middle;width:50px;height:50px;' src="Images/Logos/CondemnedFroggy.png">        
             <div style='vertical-align:middle; display:inline;font-size:150%'>
