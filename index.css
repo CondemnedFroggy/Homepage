@@ -375,6 +375,7 @@ button:focus {
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    background:white;
 }
 .video-container iframe {
     position: absolute;
@@ -382,6 +383,7 @@ button:focus {
     left: 0;
     width: 60%;
     height: 60%;
+    background:green;
 }
 .chat-container {
     position: relative;
