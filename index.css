@@ -15,7 +15,7 @@
   margin: 30px 10px;
 }
 .active, .collapsible:hover {
-    background: white;
+    background: #ffffff;
     color: #000;
 }
 .content {
@@ -27,7 +27,7 @@
   background: transparent;
 }
 .btn_one {
-    color:white;
+    color: #ffffff;
     padding:10px 40px;
     border-radius:50px;
     border:2px solid #fff;
@@ -39,15 +39,15 @@
     margin:30px 10px;
 }
 .btn_one:hover {
-    background: white;
+    background: #ffffff;
     cursor: pointer;
     color: #000;
 }
 .btn_xb {
-    color: green;
+    color: #0e7a0d;
     padding:10px 40px;
     border-radius:50px;
-    border:2px solid green;
+    border:2px solid #0e7a0d;
     font-size:18px;
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
@@ -56,7 +56,7 @@
     background: transparent;
 }
 .btn_xb:hover {
-    background: green;
+    background: #0e7a0d;
     color: #000;
 }
 .btn_ps {
