@@ -380,7 +380,7 @@ button:focus {
     position: absolute;
     top:0;
     left: 0;
-    width: 100%;
+    width: 60%;
     height: 100%;
 }
 .chat-container {
@@ -394,6 +394,6 @@ button:focus {
     position: absolute;
     top:0;
     left: 0;
-    width: 100%;
+    width: 30%;
     height: 100%;
 }
