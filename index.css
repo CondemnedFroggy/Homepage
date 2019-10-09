@@ -373,6 +373,7 @@ button:focus {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
+    width: 60%;
     height: 0;
     overflow: hidden;
     background:white;
@@ -381,14 +382,15 @@ button:focus {
     position: absolute;
     top:0;
     left: 0;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     background:green;
 }
 .chat-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
+    width: 30%;
     height: 0;
     overflow: hidden;
 }
@@ -396,6 +398,6 @@ button:focus {
     position: absolute;
     top:0;
     left: 0;
-    width: 30%;
-    height: 30%;
+    width: 100%;
+    height: 100%;
 }
