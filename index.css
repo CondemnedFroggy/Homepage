@@ -55,10 +55,6 @@
     margin:30px 10px;
     background: transparent;
 }
-.btn_xb:hover {
-    background: #0e7a0d;
-    color: #000;
-}
 .btn_ps {
     color: #003087;
     padding:10px 40px;
@@ -70,11 +66,6 @@
     transition:0.4s ease-in-out;
     margin:30px 10px;
     background: transparent;
-}
-.btn_ps:hover {
-    color: #003087;
-    background: #003087;
-
 }
 .project div {
     font-weight:normal;
