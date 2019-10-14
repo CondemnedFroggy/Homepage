@@ -424,3 +424,11 @@ button:focus {
     height: 100%;
     background:white;
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
