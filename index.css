@@ -436,6 +436,7 @@ button:focus {
   left: 0;
 }
 .right {
+  left: 0;
   text-align: left;
 }
 .centered {
