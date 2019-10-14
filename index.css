@@ -67,6 +67,54 @@
     margin:30px 10px;
     background: transparent;
 }
+.btn_ship {
+    color: #ffffff;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_gold {
+    color: #FFD700;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #FFD700;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_silver {
+    color: #C0C0C0;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #C0C0C0;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_bronze {
+    color: #a46628;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #a46628;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
 .project div {
     font-weight:normal;
 }
