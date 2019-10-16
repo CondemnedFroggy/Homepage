@@ -179,6 +179,7 @@ body,html {
     display:block;
 }
 #title {
+    width:100%;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
     -webkit-background-clip:text;
     background-clip:text;
@@ -196,6 +197,7 @@ body,html {
     flex-direction:column;
 }
 #links {
+    width:100%;
     margin:40px 0px;
     transition:0.6s ease-in-out;
     color:#fff;
@@ -209,7 +211,7 @@ body,html {
     text-decoration:none;
     transition:0.4s ease-in-out;
     padding:5px 8px;
-    border-bottom:2px solid transparent;
+    border-bottom:3px solid transparent;
 }
 #links a:hover {
     border-bottom:2px solid #fff;
@@ -226,7 +228,7 @@ body,html {
     justify-content:center;
     flex-direction:column;
     transition:1s ease-in-out;
-    padding-top:20vh;
+    padding-top:30vh;
 }
 #tagline {
     font-size:50px;
