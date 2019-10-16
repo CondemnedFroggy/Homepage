@@ -191,13 +191,17 @@ body,html {
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
     font-family: 'Comfortaa', cursive;
+    display:flex;
     justify-content:center;
+    flex-direction:column;
 }
 #links {
     margin:40px 0px;
     transition:0.6s ease-in-out;
     color:#fff;
+    display:flex;
     justify-content:center;
+    flex-direction:column;
 }
 #links a {
     margin:0px 30px;
