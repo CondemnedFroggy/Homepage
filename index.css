@@ -220,7 +220,7 @@ body,html {
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://raw.githubusercontent.com/CondemnedFroggy/Homepage/master/Images/Wallpapers/Iowa_vs_Amagi.jpg") center center fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% auto;
     color:white;
     display:flex;
     justify-content:center;
