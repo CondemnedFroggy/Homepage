@@ -26,6 +26,13 @@
   overflow: hidden;
   background: transparent;
 }
+.image_container {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    background:white;
+}
 .btn_one {
     color: #ffffff;
     padding:10px 40px;
