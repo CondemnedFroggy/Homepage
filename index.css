@@ -67,6 +67,57 @@
     margin:30px 10px;
     background: transparent;
 }
+.btn_yt {
+    color: #ff0000;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #ff0000;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+    background: transparent;
+}
+.btn_yt:hover {
+    background: #ff0000;
+    cursor: pointer;
+    color: #000;
+}
+.btn_tw {
+    color: #6441a5;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #6441a5;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+    background: transparent;
+}
+.btn_tw:hover {
+    background: #6441a5;
+    cursor: pointer;
+    color: #000;
+}
+.btn_mx {
+    color: #1cbde6;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #1cbde6;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+    background: transparent;
+}
+.btn_mx:hover {
+    background: #01204f;
+    cursor: pointer;
+    color: #1cbde6;
+}
 .btn_ship {
     color: #ffffff;
     padding:10px 40px;
