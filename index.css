@@ -26,8 +26,8 @@
   overflow: hidden;
   background: #000;
 }
-.image_container {
-    width: 100%;
+.image {
+    width: 60%;
     height: auto;
 }
 .btn_one {
