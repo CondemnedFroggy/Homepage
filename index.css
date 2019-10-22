@@ -14,9 +14,19 @@
   transition: 0.3s ease-in-out;
   margin: 10px;
 }
+.collapsible:after {
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
 .active, .collapsible:hover {
     background: #ffffff;
     color: #000;
+}
+.active:after {
+  content: "\2796";
 }
 .content {
   padding: 10px 40px;
