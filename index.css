@@ -151,6 +151,18 @@
     transition:0.4s ease-in-out;
     margin: 10px;
 }
+.btn_diamond {
+    color: #b9f2ff;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #b9f2ff;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
 .btn_gold {
     color: #FFD700;
     padding:10px 40px;
