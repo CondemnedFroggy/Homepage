@@ -12,7 +12,7 @@
   font-family: 'Comfortaa', cursive;
   font-weight:bold;
   transition: 0.3s ease-in-out;
-  margin: 30px 10px;
+  margin: 10px;
 }
 .active, .collapsible:hover {
     background: #ffffff;
@@ -40,7 +40,7 @@
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px; 
 }
 .btn_one:hover {
     background: #ffffff;
@@ -56,7 +56,7 @@
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
     background: transparent;
 }
 .btn_ps {
@@ -68,7 +68,7 @@
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
     background: transparent;
 }
 .btn_yt {
@@ -80,7 +80,7 @@
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
     background: transparent;
 }
 .btn_yt:hover {
@@ -97,7 +97,7 @@
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
     background: transparent;
 }
 .btn_tw:hover {
@@ -114,7 +114,7 @@
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
     background: transparent;
 }
 .btn_mx:hover {
@@ -132,7 +132,7 @@
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
 }
 .btn_br:hover {
     background: #000;
@@ -149,7 +149,7 @@
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
 }
 .btn_gold {
     color: #FFD700;
@@ -161,7 +161,7 @@
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
 }
 .btn_silver {
     color: #C0C0C0;
@@ -173,7 +173,7 @@
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
 }
 .btn_bronze {
     color: #a46628;
@@ -185,7 +185,7 @@
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
 }
 .project div {
     font-weight:normal;
@@ -200,7 +200,7 @@
     font-weight:bold;
     background:#fff;
     transition:0.4s ease-in-out;
-    margin:30px 10px;
+    margin: 10px;
 }
 .btn_two:hover {
     background:transparent;
