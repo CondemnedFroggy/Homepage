@@ -1,0 +1,184 @@
+.btn_one {
+    color: #ffffff;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px; 
+}
+.btn_one:hover {
+    background: #ffffff;
+    cursor: pointer;
+    color: #000;
+}
+.btn_xb {
+    color: #0e7a0d;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #0e7a0d;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_ps {
+    color: #003087;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #003087;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_yt {
+    color: #ff0000;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #ff0000;
+    font-size:18px;
+    font-family: 'Montserrat', monospace;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_yt:hover {
+    background: white;
+    cursor: pointer;
+    color: #000;
+}
+.btn_tw {
+    color: #6441a5;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #6441a5;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_tw:hover {
+    background: #6441a5;
+    cursor: pointer;
+    color: #000;
+}
+.btn_mx {
+    color: #1cbde6;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #1cbde6;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_mx:hover {
+    background: #01204f;
+    cursor: pointer;
+    color: #1cbde6;
+}
+.btn_br {
+    color: #FFD700;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #FFD700;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
+.btn_br:hover {
+    background: #000;
+    cursor: pointer;
+    color: #FFD700;
+}
+.btn_ship {
+    color: #ffffff;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
+.btn_diamond {
+    color: #b9f2ff;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #b9f2ff;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
+.btn_gold {
+    color: #FFD700;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #FFD700;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
+.btn_silver {
+    color: #C0C0C0;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #C0C0C0;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
+.btn_bronze {
+    color: #a46628;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #a46628;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
+@media (max-width: 900px){
+    .btn_one {
+        font-size:14px;
+        padding:8px 20px;
+    }
+    .btn_two {
+        font-size:14px;
+        padding:8px 20px;
+    }
+    .btn_social {
+        font-size:14px;
+        margin:10px;
+        padding:10px 11px;
+    }
+}
