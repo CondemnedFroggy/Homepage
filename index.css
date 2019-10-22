@@ -9,7 +9,7 @@
   text-align: left;
   outline: none;
   font-size:18px;   
-  font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
   font-weight:bold;
   transition: 0.3s ease-in-out;
   margin: 10px;
@@ -36,7 +36,7 @@
     border-radius:50px;
     border:2px solid #fff;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;  
+    font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -53,7 +53,7 @@
     border-radius:50px;
     border:2px solid #0e7a0d;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+    font-family: 'Verdana', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
@@ -65,7 +65,7 @@
     border-radius:50px;
     border:2px solid #003087;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;  
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
@@ -77,7 +77,7 @@
     border-radius:50px;
     border:2px solid #ff0000;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
@@ -94,7 +94,7 @@
     border-radius:50px;
     border:2px solid #6441a5;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
@@ -111,7 +111,7 @@
     border-radius:50px;
     border:2px solid #1cbde6;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
@@ -128,7 +128,7 @@
     border-radius:50px;
     border:2px solid #FFD700;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -145,7 +145,7 @@
     border-radius:50px;
     border:2px solid #fff;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -157,7 +157,7 @@
     border-radius:50px;
     border:2px solid #FFD700;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -169,7 +169,7 @@
     border-radius:50px;
     border:2px solid #C0C0C0;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -181,7 +181,7 @@
     border-radius:50px;
     border:2px solid #a46628;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -196,7 +196,7 @@
     border-radius:50px;
     border:2px solid #fff;
     font-size:18px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     background:#fff;
     transition:0.4s ease-in-out;
@@ -210,7 +210,7 @@
 body,html {
     padding:0px;
     margin:0px;
-    font-family: 'Julius Sans One', monospace;
+  font-family: 'Verdana', sans-serif;
     font-weight:bold;
     color:#fff;
     background:rgb(0, 0, 0);
