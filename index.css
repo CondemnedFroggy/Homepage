@@ -1,41 +1,3 @@
-.collapsible {
-  background:transparent;
-  color:white;
-  cursor: pointer;
-  padding:10px 40px;
-  width: 100%;
-  border:2px solid #fff;
-  border-radius:50px;
-  text-align: left;
-  outline: none;
-  font-size:18px;   
-  font-family: 'Comfortaa', sans-serif;
-  font-weight:bold;
-  transition: 0.3s ease-in-out;
-  margin: 10px;
-}
-.collapsible:after {
-  content: '\02795';
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-.active, .collapsible:hover {
-    background: #ffffff;
-    color: #000;
-}
-.active:after {
-  content: "\2796";
-}
-.content {
-  padding: 10px 40px;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  display: none;
-  overflow: hidden;
-  background: #000;
-}
 .image {
     width: 75%;
     height: auto;
@@ -112,7 +74,7 @@ body,html {
     flex-direction:column;
 }
 #links a {
-    margin:0px 20px;
+    margin:40px 10px;
     color:inherit;
     text-decoration:none;
     transition:0.4s ease-in-out;
@@ -123,7 +85,6 @@ body,html {
     border-bottom:2px solid #fff;
 }
 #middle {
-    width:100%;
     height:80vh;
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://raw.githubusercontent.com/CondemnedFroggy/Homepage/master/Images/Wallpapers/Iowa_vs_Amagi.jpg");
     background-position: center;
@@ -155,7 +116,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Verdana', cursive;
+    font-family: 'Comfortaa', sans-serif;
 }
 #skills {
     margin:4vh 0px !important;
@@ -179,7 +140,7 @@ body,html {
     border:0px;
     border-bottom:2px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Verdana', cursive;
+    font-family: 'Comfortaa', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#fff;
@@ -191,7 +152,7 @@ body,html {
     border:0px;
     border-bottom:2px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Verdana', cursive;
+    font-family: 'Comfortaa', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
@@ -214,25 +175,23 @@ body,html {
 }
 @media (max-width: 900px){
     #header {
-        width:94%;
-        padding:15% 3%;
+        width:100%;
     }
     #title {
-        font-size:15px;
+        font-size:2.5vh;
     }
     #links {
-        margin:30px 0px;
+        margin:10px 0px;
     }
     #links a {
-        margin:0px;
+        margin:5px;
+        margin-bottom: 100px;
+        line-height: 2;
     }
     #middle {
         width:100%;
         border-radius:0px;
         height:80vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     #tagline {
         width:90%;
@@ -262,7 +221,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Verdana', cursive;
+    font-family: 'Comfortaa', sans-serif;
     text-decoration:none;
 }
 button:focus {
@@ -303,7 +262,6 @@ button:focus {
     width: 100%;
     height: 0;
     overflow: hidden;
-    background:green;
 }
 .video-container iframe {
     position: absolute;
@@ -311,24 +269,8 @@ button:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background:white;
+    background:transparent;
 }
 * {
   box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 }

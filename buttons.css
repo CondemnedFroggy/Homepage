@@ -1,3 +1,110 @@
+.collapsible {
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+    padding:10px 40px;
+    width: 100%;
+    border:2px solid #fff;
+    border-radius:50px;
+    text-align: left;
+    outline: none;
+    font-size:18px;   
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-top: 6px;     
+}
+.collapsible_tw {
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+    padding:10px 40px;
+    width: 100%;
+    border:2px solid #6441a5;
+    border-radius:50px;
+    text-align: left;
+    outline: none;
+    font-size:18px;   
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+.collapsible_tw:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-top: 6px;     
+}
+.collapsible_mx {
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+    padding:10px 40px;
+    width: 100%;
+    border:2px solid #1cbde6;
+    border-radius:50px;
+    text-align: left;
+    outline: none;
+    font-size:18px;   
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+.collapsible_mx:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-top: 6px;   
+}
+.collapsible_yt {
+    background:transparent;
+    color: #ff0000;
+    cursor: pointer;
+    padding:10px 40px;
+    width: 100%;
+    border:2px solid #ff0000;
+    border-radius:50px;
+    text-align: left;
+    outline: none;
+    font-size:18px;   
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+.collapsible_yt:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-top: 6px;     
+}
+.active, .collapsible_tw:hover, .collapsible_mx:hover, .collapsible_yt:hover, .collapsible:hover {
+    background: #fff;
+    color: #111;
+}
+.active:after {
+    content: "\2796";
+}
+.content {
+    padding: 40px 40px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    display: none;
+    overflow: hidden;
+    background: #000;
+}
 .btn_one {
     color: #ffffff;
     padding:10px 40px;
@@ -45,7 +152,7 @@
     border-radius:50px;
     border:2px solid #ff0000;
     font-size:18px;
-    font-family: 'Montserrat', monospace;
+    font-family: 'Comfortaa', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
@@ -71,7 +178,7 @@
 .btn_tw:hover {
     background: #6441a5;
     cursor: pointer;
-    color: #000;
+    color: white;
 }
 .btn_mx {
     color: #1cbde6;
@@ -86,11 +193,45 @@
     background: transparent;
 }
 .btn_mx:hover {
-    background: #01204f;
+    background: #1cbde6;
     cursor: pointer;
-    color: #1cbde6;
+    color: #111;
 }
-.btn_br {
+.btn_twitter {
+    color: #00aced;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #00aced;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    font-family: 'Comfortaa', sans-serif;
+    margin: 10px;
+    background: transparent;
+}
+.btn_twitter:hover {
+    background: #c0deed;
+    cursor: pointer;
+    color: #000;
+}
+.btn_discord {
+    color: #7289da;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #2c2f33;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    font-family: 'Comfortaa', sans-serif;
+    margin: 10px;
+    background: transparent;
+}
+.btn_discord:hover {
+    background: #2c2f33;
+    cursor: pointer;
+    color: #fff;
+}
+.btn_triumph {
     color: #FFD700;
     padding:10px 40px;
     border-radius:50px;
@@ -98,14 +239,48 @@
     font-size:18px;
     font-family: 'Comfortaa', sans-serif;
     font-weight:bold;
-    background:transparent;
     transition:0.4s ease-in-out;
     margin: 10px;
+    background: transparent;
 }
-.btn_br:hover {
-    background: #000;
+.btn_triumph:hover {
+    background: #FFD700;
     cursor: pointer;
-    color: #FFD700;
+    color: #000;
+}
+.btn_member {
+    color: lightgrey;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid lightgrey;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_member:hover {
+    background: white;
+    cursor: pointer;
+    color: #000;
+}
+.btn_contact {
+    color: lightgrey;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid lightgrey;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+    background: transparent;
+}
+.btn_contact:hover {
+    background: white;
+    cursor: pointer;
+    color: #000;
 }
 .btn_ship {
     color: #ffffff;

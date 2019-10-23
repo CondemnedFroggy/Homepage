@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title style="font-size:150%">
-        Home - Legends V1.61
+        Home - LoWoWL
     </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
@@ -16,12 +16,7 @@
     
 </head>
     
-<body>
-    <style>
-        img{width: 40%;
-            height: 40%}
-    </style>
-    
+<body>    
     <div id="loading">
         <div id="spinner">
         </div>
@@ -35,12 +30,12 @@
             <a href='index.html'>home</a>
             <a href='streamers.html'>streamers</a>
             <a href='youtubers.html'>youtubers</a>
-            <a href='battleresults.html'>battle results</a>
+            <a href='triumphs.html'>triumphs</a>
             <a href='members.html'>members</a>
-            <a href='contact.html'>contact us</a>
+            <a href='contact.html'>contact</a>
         </div>
     </div>
-
+    
     <center>
         <div id="middle">
             <div class="animated zoomIn" style="animation-delay:1.8s;">                
@@ -54,10 +49,10 @@
                         <p id="countdown"></p>
                     </h1>
                                  
-                    <button class="btn_one" onclick="window.open('https://www.youtube.com/embed/LlIm_i-Uh_8?autoplay=1','_blank')">WATCH TRAILER</button>
+                    <button class="btn_one" onclick="window.open('https://www.youtube.com/embed/LlIm_i-Uh_8?autoplay=1','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/play_button.png"> WATCH TRAILER</button>
                 </div>
-                <button class="btn_one" onclick="window.open('https://wowslegends.com','_blank')">Try the game</button>
-                <button class="btn_one" onclick="window.open('https://wiki.wargaming.net/en/WoWS_Legends','_blank')">Wiki</button>
+                <button class="btn_one" onclick="window.open('https://wowslegends.com','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/controller_icon.png"> Try the game</button>
+                <button class="btn_one" onclick="window.open('https://wiki.wargaming.net/en/WoWS_Legends','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/wikipedia_logo.png"> Game Wiki</button>
             </div>
         </div>
     </center>
@@ -78,13 +73,13 @@
                     <button class="btn_yt" onclick="window.open('youtubers.html')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/youtube_logo.png"> youtubers</button>
                     Here you can find the best hits, tips, strategy and the most Legendary content on YouTube!
                     <br> 
-                    <button class="btn_gold" onclick="window.open('battleresults.html')">battle results</button>
+                    <button class="btn_triumph" onclick="window.open('triumphs.html')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> triumphs</button>
                     Here you can find the greatest battle results of our Legends!
                     <br> 
-                    <button class="btn_silver" onclick="window.open('members.html')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Logos/placeholder.png"> members</button>
+                    <button class="btn_member" onclick="window.open('members.html')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Logos/placeholder.png"> members</button>
                     You are the Legends of World of Warships: Legends! Here you can find the Legends together in one place!
                     <br> 
-                    <button class="btn_one" onclick="window.open('contact.html')">contact us</button>
+                    <button class="btn_contact" onclick="window.open('contact.html')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/email_icon.png"> contact</button>
                     Want to become a Legend of World of Warships: Legends? Or maybe just talk to the site creators? You can do that here!
                     <br> 
                     <br><br><br><br><br>
@@ -101,3 +96,42 @@
     <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
+
+<script>
+    var countDownDate = new Date("Oct 26, 2019 07:00:00").getTime();
+    var countdownfunction = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("countdown").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+</script>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) 
+    {
+        coll[i].addEventListener("click", function() 
+        {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") 
+            {
+                content.style.display = "none";
+            }
+            else 
+            {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
