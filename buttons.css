@@ -294,6 +294,18 @@
     transition:0.4s ease-in-out;
     margin: 10px;
 }
+.btn_master {
+    color: #5AFF4E;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #5AFF4E;
+    font-size:18px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin: 10px;
+}
 .btn_diamond {
     color: #b9f2ff;
     padding:10px 40px;
