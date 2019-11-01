@@ -105,6 +105,14 @@
     overflow: hidden;
     background: #000;
 }
+.content1 {
+    padding: 40px 40px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    display: none;
+    overflow: hidden;
+    background: #000;
+}
 .btn_one {
     color: #ffffff;
     padding:10px 40px;
