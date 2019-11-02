@@ -57,20 +57,30 @@
             </div>
         </div>
     </center>
-
-<!-------------------START OF TAGS SECTION--------------------------------->
+        
+<!--------------------START OF TAGS SECTION-------------------------------->
+    
     <div id="portfolio">
+        <!--
+        <div id="myBtnContainer">
+            <button class="btn_one active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn_one" onclick="filterSelection('nature')"> Nature</button>
+            <button class="btn_one" onclick="filterSelection('cars')"> Cars</button>
+            <button class="btn_one" onclick="filterSelection('people')"> People</button>
+        </div>
+        -->
         <div id="tags">
             <h1>tags</h1>
-            <div>
+            
+            <div id="Non-Ribbon Badges">
                 <p>
-                    Here is a comprehensive list of almost completelly meaningless award categories designed to put into perspective just how amazing some of these achievements are! Each category is divided into : Bronze - minimum amount for achievement, Silver - Above average amount towards achievement, Gold - more than ever expected towards achievement, Diamond - expected to be the highest amount forf achievement, Master - Absolute maximum amount achieveable, no higher could possibly be obtained.<br>
+                    Here is a comprehensive list of almost completely meaningless award categories designed to put into perspective just how amazing some of these achievements are! Each category is divided into : Bronze - minimum amount for achievement, Silver - Above average amount towards achievement, Gold - more than ever expected towards achievement, Diamond - expected to be the highest amount forf achievement, Master - Absolute maximum amount achieveable, no higher could possibly be obtained.<br>
                 </p>
                 <p>
                     Non-Ribbon Badges
                 </p>
                     
-                <button type="button" class="collapsible">Damage to Ships</button>
+                <button type="button" class="collapsible"><img style='vertical-align:middle;width:41px;height:32px;' src="Images/Icons/ammo_icon.png"> Damage to Ships</button>
                     <div class="content"><br>
                         <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button>
                         <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150,000 Damage</button>
@@ -121,7 +131,9 @@
                         </p>
                         <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 4,090 Base XP</button>
                     </div>
-                
+            </div>
+            
+            <div id-"Ribbon Badges">
                 <p>
                     Ribbon Badges
                 </p>                    
@@ -160,9 +172,9 @@
                         <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 25 Fires</button>
                         <p>
                             There is no fixed amount for the Master badge, therefore the highest fires recorded here is awarded 
-                            this medal. Current highest fires recorded: 21.
+                            this medal. Current highest fires recorded: 15.
                         </p>
-                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 21 Fires</button>
+                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 15 Fires</button>
                     </div> 
                 
                 <button type="button" class="collapsible"><img style='vertical-align:middle;width:96px;height:32px;' src="Images/Icons/Ribbons/citadel.png"> Citadels Hit</button>
@@ -224,53 +236,56 @@
                         <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 500 Hits</button>
                         <p>
                             There is no fixed amount for the Master badge, therefore the highest hits recorded here is awarded 
-                            this medal. Current hits damage recorded: 265.
+                            this medal. Current hits damage recorded: 481.
                         </p>
-                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 265 Hits</button>       
+                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 481 Hits</button>       
                     </div>  
                
                 <button type="button" class="collapsible"><img style='vertical-align:middle;width:96px;height:32px;' src="Images/Icons/Ribbons/plane_shot_down.png"> Planes Shot Down</button>
                     <div class="content"><br>
-                        <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button>
-                        <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150,000 Damage</button>
-                        <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
-                        <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 300,000 Damage</button>
+                        <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 3 Planes</button>
+                        <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 4 Planes</button>
+                        <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 5 Planes</button>
+                        <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 6 Planes</button>
                         <p>
-                            There is no fixed amount for the Master badge, therefore the highest damage recorded here is awarded 
-                            this medal. Current highest damage recorded: 265,529.
+                            There is no fixed amount for the Master badge, therefore the most planes shot down recorded here is awarded 
+                            this medal. Current highest plane count recorded: 5.
                         </p>
+                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 5 Planes</button>
                     </div>  
                 
                 <button type="button" class="collapsible"><img style='vertical-align:middle;width:96px;height:32px;' src="Images/Icons/Ribbons/secondary_hit.png"> Secondary Hits</button>
                     <div class="content"><br>
-                        <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button>
-                        <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150,000 Damage</button>
-                        <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
-                        <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 300,000 Damage</button>
+                        <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100 Hits</button>
+                        <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150 Hits</button>
+                        <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200 Hits</button>
+                        <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 250 Hits</button>
                         <p>
-                            There is no fixed amount for the Master badge, therefore the highest damage recorded here is awarded 
-                            this medal. Current highest damage recorded: 265,529.
+                            There is no fixed amount for the Master badge, therefore the most hits recorded here is awarded 
+                            this medal. Current highest hit count recorded: 148.
                         </p>
+                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 148 Hits</button>
                     </div>  
                 
                 <button type="button" class="collapsible"><img style='vertical-align:middle;width:96px;height:32px;' src="Images/Icons/Ribbons/torpedo_hit.png"> Torpedo Hits</button>
                     <div class="content"><br>
-                        <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button>
-                        <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150,000 Damage</button>
-                        <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
-                        <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 300,000 Damage</button>
+                        <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 10 Hits</button>
+                        <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 14 Hits</button>
+                        <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 18 Hits</button>
+                        <button class="btn_diamond"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/diamond_medal.png"> 22 Hits</button>
                         <p>
-                            There is no fixed amount for the Master badge, therefore the highest damage recorded here is awarded 
-                            this medal. Current highest damage recorded: 265,529.
+                            There is no fixed amount for the Master badge, therefore the highest Hits recorded here is awarded 
+                            this medal. Current highest Hits recorded: 14.
                         </p>
+                        <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 14 Hits</button>
                     </div>
                 
             </div>
         </div>
                                                                                                                            
-<!--------------------END OF TAGS SECTION---------------------------------->                                                                                                                           
-<!-------------------START OF HALL OF FAME SECTION------------------------->
-                                                                                                                            
+<!--------------------END OF TAGS SECTION----------------------------------> 
+<!--------------------START OF HALL OF FAME SECTION------------------------>
+
         <div id="hall-of-fame">
             <h1>hall of fame</h1>
             <div>
@@ -280,7 +295,7 @@
             </div> 
                     
             <div class="project">
-                <button type="button" class="collapsible">Most Damage Done</button>
+                <button type="button" class="collapsible"><img style='vertical-align:middle;width:41px;height:32px;' src="Images/Icons/ammo_icon.png"> Most Damage Done</button>
                     <div class="content">
                         <div>
                             <p>
@@ -289,70 +304,196 @@
                             </p>
                         </div>
                         
-                        <div>
-                            <img class="image" src="Images/Games/SupermanIAm1 265529 game.png">
+                        <div id="First Place">
+                            <img class="image" src="Images/Games/SupermanIAm1 265529 game.png"><br>
 
                             <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> SupermanIAm1</button>
 
-                            <button class="btn_ship"> 7 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> IJN Amagi</button>
+                            <button class="btn_ship"> VII <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> IJN Amagi</button>
                             <br>
 
-                            <button type="button" class="collapsible">3 Tags</button>
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
                                 <div class="content">
-                                    <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
-
-                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 10 Citadels</button>
-
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 265,529 Damage</button>
                                     <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 6 kills</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 10 Citadels</button>                                   
                                 </div>
                             <br>
                         </div>
+                        <br><br>
                         
-                        <div>
-                            <img class="image" src="Images/Games/CondemnedFroggy 223296 game.png">
+                        <div id="Second Place">
+                            <img class="image" src="Images/Games/CondemnedFroggy 223296 game.png"><br>
                             
                             <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
                                 
-                            <button class="btn_ship"> 7 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> USS Iowa</button>
+                            <button class="btn_ship"> VII <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> USS Iowa</button>
                             <br>
                             
 
-                            <button type="button" class="collapsible">1 Tag</button>
-                                <div class="content"> 
-                                    <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
-                                </div>
-                                
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"></button>
+                                <div class="content">
+                                    <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>                                   
+                                </div>                               
                             <br>
                         </div>                    
+                        <br><br>
                         
-                        <div>
-                            <img class="image" src="Images/Games/Cheese_cruiser 208242 game.png">
+                        <div id="Third Place">
+                            <img class="image" src="Images/Games/Cheese_cruiser 208242 game.png"><br>
 
                             <button class="btn_ps"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/playstation_logo.png"> Cheese_cruiser</button>
 
-                            <button class="btn_ship"> 5 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> HMS Queen Elizabeth</button>
+                            <button class="btn_ship"> V <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> HMS Queen Elizabeth</button>
                             <br>
 
-                            <button type="button" class="collapsible">1 Tag</button>
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
                                 <div class="content">
                                     <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 3 Planes</button>                                   
+                                </div>
+                                <div class="content">
+                                    <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 200,000 Damage</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 3 Planes</button>
                                 </div>
                             <br>
                         </div>
+                        <br><br>
                         
                     </div>
                                                           
-                <button type="button" class="collapsible">Most Fires Set</button>
-                    <div class="content"><br>
-                        <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
+                <button type="button" class="collapsible"><img style='vertical-align:middle;width:96px;height:32px;' src="Images/Icons/Ribbons/burn.png"> Most Fires Set</button>
+                    <div class="content">
+                        <div>
+                            <p>
+                                Want to get your image here? Find us on <a href="https://discord.gg/677YC2K">Discord</a>
+                                <br><br>
+                            </p>
+                        </div>
+                        
+                        <div id="First Place">
+                            <img class="image" src="Images/Games/SupermanIAm1%20145854%20game.png"><br>
+                            
+                            <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> SupermanIAm1</button>
+                                
+                            <button class="btn_ship"> VII <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> IJN Mogami</button>
+                            <br>                            
+
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
+                                <div class="content">
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 16 Fires</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button> 
+                                </div>                               
+                            <br>
+                        </div>  
+                        <br><br>                        
+                    
+                        <div id="Second Place">
+                            <img class="image" src="Images/Games/CondemnedFroggy%20124336%20game.png"><br>
+                            
+                            <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
+                                
+                            <button class="btn_ship"> VI <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> USS Atlanta</button>
+                            <br>
+                            
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
+                                <div class="content">
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 16 Fires</button>
+                                    <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 400 Primary Hits</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button>                                   
+                                </div>                               
+                            <br>
+                        </div>  
+                        <br><br>
+                        
+                        <div id="Third Place">
+                            <img class="image" src="Images/Games/CorsairCombat13%20138000%20game.png"><br>
+
+                            <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CorsairCombat13</button>
+
+                            <button class="btn_ship"> VI <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> USS Atlanta</button>
+                            <br>
+
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 3 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
+                                <div class="content">                                    
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 481 Primary Hits</button>                                       <button class="btn_gold"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/gold_medal.png"> 14 Defends</button>
+                                    <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 7 Incapacitations</button>
+                                    <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 6 Destroyed</button>
+                                    <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 15 Fires</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 100,000 Damage</button>
+                                </div>
+                            <br>
+                        </div>  
+                        <br><br>
+                        
                     </div>
                                         
-                <button type="button" class="collapsible">Most Torpedoes Hit</button>
-                    <div class="content"><br>
-                        <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
+                <button type="button" class="collapsible"><img style='vertical-align:middle;width:96px;height:32px;' src="Images/Icons/Ribbons/torpedo_hit.png"> Most Torpedoes Hit</button>
+                    <div class="content">
+                        <div>
+                            <p>
+                                Want to get your image here? Find us on <a href="https://discord.gg/677YC2K">Discord</a>
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <div id="First Place">
+                            <img class="image" src="Images/Games/CondemnedFroggy%20174111%20game.png"><br>
+                            
+                            <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
+                                
+                            <button class="btn_ship"> V <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> IJN Fubuki</button>
+                            <br>                            
+
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
+                                <div class="content">
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 14 Torpedoes</button>
+                                    <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150,000 Damage</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 8 Floods</button>
+                                </div>                               
+                            <br>
+                        </div>  
+                        <br><br>
+                        
+                        <div id="Second Place">
+                            <img class="image" src="Images/Games/SupermanIAm1%20175858%20game.png"><br>
+                            
+                            <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> SupermanIAm1</button>
+                                
+                            <button class="btn_ship"> V <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> HMS Icarus</button>
+                            <br>                            
+
+                            <button type="button" class="collapsible">2 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"></button>
+                                <div class="content">
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 14 Torpedoes</button>
+                                    <button class="btn_master"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/master_medal.png"> 13 Floods</button>
+                                    <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 150,000 Damage</button>
+                                </div>                               
+                            <br>
+                        </div>  
+                        <br><br>
+                        
+                        <div id="Third Place">
+                            <img class="image" src="Images/Games/Cheese_cruiser%20118260%20game.jpg"><br>
+                            
+                            <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> Cheese_cruiser</button>
+                                
+                            <button class="btn_ship"> VI <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/ship_icon.png"> HMS Jervis</button>
+                            <br>                            
+
+                            <button type="button" class="collapsible">1 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 2 <img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"></button>
+                                <div class="content">
+                                    <button class="btn_silver"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 7 Incapacitations</button>
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/bronze_medal.png"> 10 Torpedoes</button>                                    
+                                    <button class="btn_bronze"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/silver_medal.png"> 8 Floods</button>
+                                </div>                               
+                            <br>
+                        </div> 
+                        <br><br>
+                        
                     </div>
                             
-                <button type="button" class="collapsible">Most Enemies Destroyed</button>
+                <button type="button" class="collapsible">Most Enemies Destroyed (WIP)</button>
                     <div class="content"><br>
                         <img class="image" src="Images/Games/Cheese_cruiser 132039 game.jpg">
                         <div>
@@ -383,27 +524,27 @@
                         </div> 
                     </div>
                             
-                <button type="button" class="collapsible">Highest Total XP Earned</button>
+                <button type="button" class="collapsible">Highest Total XP Earned (WIP)</button>
                     <div class="content"><br>
                         <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
                     </div>
                                                                            
-                <button type="button" class="collapsible">Highest Base XP Earned</button>
+                <button type="button" class="collapsible">Highest Base XP Earned (WIP)</button>
                     <div class="content"><br>
                         <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
                     </div>
                             
-                <button type="button" class="collapsible">Most Credits Earned</button>
+                <button type="button" class="collapsible">Most Credits Earned (WIP)</button>
                     <div class="content"><br>
                         <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
                     </div>
                  
-                <button type="button" class="collapsible">Most Citadels Hit</button>
+                <button type="button" class="collapsible">Most Citadels Hit (WIP)</button>
                     <div class="content"><br>
                         <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
                     </div> 
                             
-                <button type="button" class="collapsible">Most Secondary Hits</button>
+                <button type="button" class="collapsible">Most Secondary Hits (WIP)</button>
                     <div class="content"><br>
                         <button class="btn_xb"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/xbox_logo.png"> CondemnedFroggy</button>
                     </div>
@@ -412,7 +553,7 @@
         <!-----------------------END OF HALL OF FAME SECTION-------------------------->         
         <!-----------------------START OF BATTLE RESULTS SECTION---------------------->        
         
-        <div id="Community Moments">
+        <!--<div id="Community Moments">
             <h1>community moments</h1>
             <div>
                 <p>
@@ -538,7 +679,7 @@
                         </div>
                         <br><br><br>
             </div>                                   
-        </div>  
+        </div>-->  
     </div>
     <!---------------------------END OF BATTLE RESULTS SECTION------------------------>
      
@@ -592,4 +733,49 @@
         });
     }
 </script><!¬-Collapsible-->
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn_one");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script><!--Tags/Gallery-->
     
