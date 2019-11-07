@@ -203,6 +203,9 @@ body,html {
     #contact form textarea {
         width:92%;
     }
+    .column {
+    width: 100%;
+  }
 }
 #footer {
     width:100%;
@@ -273,4 +276,14 @@ button:focus {
 }
 * {
   box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
