@@ -144,27 +144,27 @@
 }
 .btn_xb {
     color: #0e7a0d;
-    padding:10px 40px;
+    padding:5px 20px;
     border-radius:50px;
-    border:2px solid #0e7a0d;
+    border:8px solid #0e7a0d;
     font-size:18px;
     font-family: 'Comfortaa', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
-    background: transparent;
+    background: #fff;
 }
 .btn_ps {
     color: #003087;
-    padding:10px 40px;
+    padding:5px 20px;
     border-radius:50px;
-    border:2px solid #003087;
+    border:8px solid #003087;
     font-size:18px;
     font-family: 'Comfortaa', sans-serif;
     font-weight:bold;
     transition:0.4s ease-in-out;
     margin: 10px;
-    background: transparent;
+    background: #fff;
 }
 .btn_yt {
     color: #ff0000;
