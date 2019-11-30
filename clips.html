@@ -27,10 +27,9 @@
         </div><br>
         <div id="links">
             <a href='index.html'>home</a>
-            <a href='streamers.html'>streamers</a>
-            <a href='youtubers.html'>youtubers</a>
+            <a href='community.html'>community</a>
+            <a href='members.html'>members</a>  
             <a href='triumphs.html'>triumphs</a>
-            <a href='members.html'>members</a>
             <a href='contact.html'>contact</a>
         </div>
     </div>
@@ -38,17 +37,17 @@
     <center>
         <div id="middle">
             <div class="animated zoomIn" style="animation-delay:1.8s;">                
-                <h1 style="font-size:2vw;">World of Warships: Legends<br></h1>                        
+                <h1 style="font-size:2vw;">World of Warships: Legends</h1>                        
                 <div>
-                    <h5 style="font-size:2vw">
-                        Something wicked this way comes!<br>                           
-                        The monstrous battle begins 10/26/19
+                    <h5 style="font-size:1.5vw">
+                        Crossplay and Ranked games are coming!<br>                           
+                        Settle your differences on Xbox and Playstation on 25 Nov 19
                     </h5>
                     <h1 style="font-size:2vw margin:0px">
                         <p id="countdown"></p>
                     </h1>
                                  
-                    <button class="btn_one" onclick="window.open('https://www.youtube.com/embed/LlIm_i-Uh_8?autoplay=1','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/play_button.png"> WATCH TRAILER</button>
+                    <button class="btn_one" onclick="window.open('https://www.youtube.com/embed/gZmLx0RaY4I?autoplay=1','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/play_button.png"> WATCH TRAILER</button>
                 </div>
                 <button class="btn_one" onclick="window.open('https://wowslegends.com','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/controller_icon.png"> Try the game</button>
                 <button class="btn_one" onclick="window.open('https://wiki.wargaming.net/en/WoWS_Legends','_blank')"><img style='vertical-align:middle;width:32px;height:32px;' src="Images/Icons/wikipedia_logo.png"> Game Wiki</button>
@@ -146,7 +145,7 @@
 </html>
 
 <script>
-    var countDownDate = new Date("Nov 11, 2019 07:00:00").getTime();
+    var countDownDate = new Date("Nov 25, 2019 07:00:00").getTime();
     var countdownfunction = setInterval(function() {
       var now = new Date().getTime();
       var distance = countDownDate - now;
@@ -158,7 +157,7 @@
       + minutes + "m " + seconds + "s ";
       if (distance < 0) {
         clearInterval(countdownfunction);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = "AVAILABLE NOW";
       }
     }, 1000);
 </script><!--Countdown-->
